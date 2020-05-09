@@ -1,0 +1,208 @@
+container{
+    display: flex !important;
+ justify-content: space-between !important;
+    flex-direction: column !important;
+}
+
+.link_col
+{ display: inline-flex;
+justify-content: space-between;
+list-style-type: none;
+margin: 10px;
+}
+
+
+.col{
+  flex: 4;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.num{
+  font-size: 45px;
+  font-weight: 600;
+  margin: 20px 0;
+  font-family: Baskerville Old Face;
+}
+
+.shadow{
+    background-color: white;
+    padding: 40px 20px 40px 20px;
+    box-shadow: 5px 10px 18px #888888;
+    
+
+  }
+  .logo_col{
+    margin: 15px ;
+
+    
+}
+
+
+  .heading_h4{
+      color: #316DC3;
+      padding-top: 20px;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 600;
+
+  }
+  .shadow1{
+    background-color: white;
+    padding: 20px 40px 20px 40px;
+    box-shadow: 5px 10px 18px #888888;
+    
+
+  }
+  
+  .logo_col1{
+    margin: 15px ;
+    border: 1px solid  #d8dbe2 ;
+    background-color: #f7f8fa 
+    
+}
+
+.mission{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+color: #316DC3;
+font-weight: 600;
+ 
+}
+.mission_box{
+    font-family: 'Times New Roman', Times, serif;
+    /* margin-top: 20px; */
+color: #316DC3;
+font-weight: 500;
+display: inline-flex;
+padding-left:8px ;
+justify-content: space-around;
+text-transform: uppercase;
+}
+  
+
+
+/* image gallery */
+.img_col{
+    margin-left: 3px; margin-right: 3px;
+
+}
+ 
+
+
+
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* =================== */
+  
+
+/* The grid: Four equal columns that floats next to each other */
+.column1 {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  
+  /* Style the images inside the grid */
+  .column1>img {
+    opacity: 0.8; 
+    cursor: pointer; 
+  }
+  
+  .column1>img:hover {
+    opacity: 1;
+  }
+  
+  /* Clear floats after the columns */
+  .row_img:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The expanding image container */
+  .container_img {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  /* Expanding image text */
+  #imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Closable button inside the expanded image */
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+
+
+  /* footer section  ================================== */
+  .footer{
+      background-color: rgb(40, 40, 51);
+      margin-top:200px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 13px;
+  }
+
+  .footer_col{
+      color: #bbb;
+      border:  1px yellow solid;
+  }
+
